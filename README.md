@@ -8,5 +8,9 @@ docker build . -t chronyd-container
 docker run -d -p 123:123/udp chronyd-container
 ```
 
+## Tail Logs
+```sh
+docker logs -f <container name>
+```
+
 # To do:
-- Configure logging to stdout
