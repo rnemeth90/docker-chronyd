@@ -1,9 +1,9 @@
+[![Docker Image CI](https://github.com/rnemeth90/chronyd-container/actions/workflows/docker-image.yml/badge.svg)](https://github.com/rnemeth90/chronyd-container/actions/workflows/docker-image.yml)
 ![Docker Automated build](https://img.shields.io/docker/automated/ryannemeth/chronyd?style=plastic)
 # Chronyd Container
 ## A simple NTP server running chronyd
 
-![chrony](https://ostechnix.com/wp-content/uploads/2018/10/chrony-1.jpeg)
-[![Docker Image CI](https://github.com/rnemeth90/chronyd-container/actions/workflows/docker-image.yml/badge.svg)](https://github.com/rnemeth90/chronyd-container/actions/workflows/docker-image.yml)
+![chrony](https://ostechnix.com/wp-content/uploads/2018/10/chrony-1.jpeg) |
 ## To Run
 
 ```sh
