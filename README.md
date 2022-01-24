@@ -16,7 +16,7 @@ docker build . -t chronyd
 docker run -d -p 123:123/udp ryannemeth/chronyd:latest
 ```
 
-## Tail Logs
+## Tail the Logs
 ```sh
 docker logs -f <container name>
 ```
