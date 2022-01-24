@@ -4,11 +4,16 @@
 ## A simple NTP server running chronyd
 
 ![chrony](https://ostechnix.com/wp-content/uploads/2018/10/chrony-1.jpeg) |
+
+## To build yourself
+```sh
+docker build . -t chronyd
+```
+
 ## To Run
 
 ```sh
-docker build . -t chronyd-container
-docker run -d -p 123:123/udp chronyd-container
+docker run -d -p 123:123/udp ryannemeth/chronyd:latest
 ```
 
 ## Tail Logs
@@ -19,4 +24,5 @@ docker logs -f <container name>
 # To do:
 <ul>
   <li>Add kubernetes manifests</li>
+  <li>Add helm chart</li>
 </ul>
