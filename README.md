@@ -9,7 +9,7 @@
 
 ## Getting Started
 
-These instructions will cover usage information and for the docker container
+These instructions will cover usage information for the docker container
 
 ### Prerequisities
 
@@ -21,15 +21,19 @@ In order to run this container you'll need docker installed.
 
 ### Usage
 
-#### Container Parameters
+## To build yourself
 
-List the different parameters available to your container
-
-```shell
-docker run -d -p 123:123/udp chronyd-container
+```sh
+docker build . -t chronyd
 ```
 
-## Tail Logs
+## To Run
+
+```sh
+docker run -d -p 123:123/udp ryannemeth/chronyd:latest
+```
+
+## Tail the Logs
 
 ```sh
 docker logs -f <container name>
@@ -43,26 +47,7 @@ docker logs -f <container name>
 ## Includes:
 
 ```
-arpwatch
-bmon
-bwm-ng
-curl
-dhclient
-dnsutils
-ethtool
-hping
-iPerf
-iputils
-jwhois
-mtr
-ncat
-netcat
-nethogs
-nmap
-smokeping
-snort
-socat
-tcpdump
+chronyd
 
 ```
 
@@ -70,4 +55,5 @@ tcpdump
 
 <ul>
   <li>Add kubernetes manifests</li>
+  <li>Add helm chart</li>
 </ul>
